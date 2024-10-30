@@ -1,0 +1,507 @@
+# Copyright (C) 2023 Andrea Porotti
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: JAMP Notes 1.5.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/jamp-notes\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-07-30T20:23:31+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: jamp\n"
+
+#. Plugin Name of the plugin
+msgid "JAMP Notes"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/andreaporotti/just-another-memo-plugin"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin allows you to attach notes to some WordPress elements like posts, pages, dashboard sections and others."
+msgstr ""
+
+#. Author of the plugin
+msgid "Andrea Porotti"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.andreaporotti.it"
+msgstr ""
+
+#: admin/class-jamp-admin.php:132
+#: public/class-jamp-public.php:98
+msgid "An error occurred while loading the items list. Please reload the page and try again."
+msgstr ""
+
+#: admin/class-jamp-admin.php:133
+#: public/class-jamp-public.php:99
+msgid "An error occurred while moving the note to the trash. Please reload the page and try again."
+msgstr ""
+
+#: admin/class-jamp-admin.php:376
+msgid "Active"
+msgstr ""
+
+#: admin/class-jamp-admin.php:376
+msgid "Inactive"
+msgstr ""
+
+#: admin/class-jamp-admin.php:445
+msgid "Note Settings"
+msgstr ""
+
+#: admin/class-jamp-admin.php:492
+#: admin/class-jamp-admin.php:623
+#: admin/class-jamp-admin.php:789
+#: includes/class-jamp-cpt.php:31
+#: includes/class-jamp-cpt.php:59
+msgid "Notes"
+msgstr ""
+
+#: admin/class-jamp-admin.php:596
+#: admin/partials/jamp-admin-admin-bar.php:56
+#: admin/partials/jamp-admin-admin-bar.php:111
+#: admin/partials/jamp-admin-column-users.php:71
+#: admin/partials/jamp-admin-column.php:80
+#: admin/partials/jamp-admin-meta-box-view-notes.php:59
+msgid "Author"
+msgstr ""
+
+#: admin/class-jamp-admin.php:597
+msgid "Location"
+msgstr ""
+
+#: admin/class-jamp-admin.php:598
+msgid "Color"
+msgstr ""
+
+#: admin/class-jamp-admin.php:792
+#: admin/partials/jamp-admin-admin-bar.php:29
+msgid "Global Notes"
+msgstr ""
+
+#: admin/class-jamp-admin.php:796
+#: admin/partials/jamp-admin-admin-bar.php:85
+msgid "Notes for this section"
+msgstr ""
+
+#: admin/class-jamp-admin.php:920
+#: admin/class-jamp-admin.php:923
+msgid "Note updated."
+msgstr ""
+
+#: admin/class-jamp-admin.php:921
+msgid "Custom field updated."
+msgstr ""
+
+#: admin/class-jamp-admin.php:922
+msgid "Custom field deleted."
+msgstr ""
+
+#: admin/class-jamp-admin.php:925
+msgid "Note published."
+msgstr ""
+
+#: admin/class-jamp-admin.php:926
+msgid "Note saved."
+msgstr ""
+
+#: admin/class-jamp-admin.php:927
+msgid "Note submitted."
+msgstr ""
+
+#: admin/class-jamp-admin.php:928
+msgid "Note scheduled."
+msgstr ""
+
+#: admin/class-jamp-admin.php:929
+msgid "Note draft updated."
+msgstr ""
+
+#. translators: %s is the number of updated notes.
+#: admin/class-jamp-admin.php:959
+msgid "%s note updated."
+msgid_plural "%s notes updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of locked notes.
+#: admin/class-jamp-admin.php:961
+msgid "%s note not updated, somebody is editing it."
+msgid_plural "%s notes not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of deleted notes.
+#: admin/class-jamp-admin.php:963
+msgid "%s note permanently deleted."
+msgid_plural "%s notes permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of trashed notes.
+#: admin/class-jamp-admin.php:965
+msgid "%s note moved to the Trash."
+msgid_plural "%s notes moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of untrashed notes.
+#: admin/class-jamp-admin.php:967
+msgid "%s note restored from the Trash."
+msgid_plural "%s notes restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the plugin name
+#: admin/class-jamp-options.php:31
+msgid "%s Settings"
+msgstr ""
+
+#: admin/class-jamp-options.php:75
+msgid "Item types"
+msgstr ""
+
+#: admin/class-jamp-options.php:101
+msgid "Enable notes for these item types"
+msgstr ""
+
+#: admin/class-jamp-options.php:118
+msgid "Appearance"
+msgstr ""
+
+#: admin/class-jamp-options.php:144
+msgid "Keep column notes closed"
+msgstr ""
+
+#: admin/class-jamp-options.php:161
+msgid "Plugin uninstall"
+msgstr ""
+
+#: admin/class-jamp-options.php:187
+msgid "Remove all data on plugin uninstall"
+msgstr ""
+
+#: admin/class-jamp-options.php:211
+msgid "Settings about the supported item types."
+msgstr ""
+
+#: admin/class-jamp-options.php:242
+msgid "Choose which item types you want to add notes to. If you disable an item type that has notes, the notes will not be deleted."
+msgstr ""
+
+#: admin/class-jamp-options.php:274
+msgid "Configure notes visual features."
+msgstr ""
+
+#: admin/class-jamp-options.php:294
+#: admin/class-jamp-options.php:349
+msgid "Enabled"
+msgstr ""
+
+#: admin/class-jamp-options.php:296
+msgid "Enabling this option all the notes will appear closed by default and only the title will be visible. Clicking on the title will open or close the note."
+msgstr ""
+
+#: admin/class-jamp-options.php:329
+msgid "These settings are applied when you uninstall the plugin."
+msgstr ""
+
+#: admin/class-jamp-options.php:351
+msgid "Please note: enabling this option, all notes and settings will be PERMANENTLY DELETED when you uninstall the plugin."
+msgstr ""
+
+#: admin/partials/jamp-admin-admin-bar.php:30
+#: admin/partials/jamp-admin-admin-bar.php:86
+msgid "New"
+msgstr ""
+
+#: admin/partials/jamp-admin-admin-bar.php:50
+#: admin/partials/jamp-admin-admin-bar.php:105
+msgid "Details"
+msgstr ""
+
+#: admin/partials/jamp-admin-admin-bar.php:51
+#: admin/partials/jamp-admin-admin-bar.php:106
+#: admin/partials/jamp-admin-column-users.php:79
+#: admin/partials/jamp-admin-column.php:88
+msgid "Edit"
+msgstr ""
+
+#: admin/partials/jamp-admin-admin-bar.php:52
+#: admin/partials/jamp-admin-admin-bar.php:107
+#: admin/partials/jamp-admin-admin-bar.php:129
+msgid "Move to Trash"
+msgstr ""
+
+#: admin/partials/jamp-admin-admin-bar.php:57
+#: admin/partials/jamp-admin-admin-bar.php:112
+#: admin/partials/jamp-admin-column-users.php:73
+#: admin/partials/jamp-admin-column.php:82
+#: admin/partials/jamp-admin-meta-box-view-notes.php:61
+msgid "Last edit"
+msgstr ""
+
+#: admin/partials/jamp-admin-admin-bar.php:58
+#: admin/partials/jamp-admin-admin-bar.php:113
+#: admin/partials/jamp-admin-column-users.php:75
+#: admin/partials/jamp-admin-column.php:84
+#: admin/partials/jamp-admin-meta-box-view-notes.php:63
+msgid "Created"
+msgstr ""
+
+#: admin/partials/jamp-admin-admin-bar.php:67
+msgid "No global notes."
+msgstr ""
+
+#: admin/partials/jamp-admin-admin-bar.php:122
+msgid "No notes for this section."
+msgstr ""
+
+#: admin/partials/jamp-admin-admin-bar.php:130
+msgid "Do you want to move this note to Trash?"
+msgstr ""
+
+#: admin/partials/jamp-admin-column-users.php:64
+#: admin/partials/jamp-admin-column.php:73
+msgid "Click to open or close the note"
+msgstr ""
+
+#: admin/partials/jamp-admin-column-users.php:69
+#: admin/partials/jamp-admin-column.php:78
+msgid "Info"
+msgstr ""
+
+#: admin/partials/jamp-admin-column-users.php:80
+#: admin/partials/jamp-admin-column.php:89
+msgid "Trash"
+msgstr ""
+
+#: admin/partials/jamp-admin-column-users.php:105
+#: admin/partials/jamp-admin-column.php:118
+msgid "Add a note"
+msgstr ""
+
+#: admin/partials/jamp-admin-column.php:128
+#: admin/partials/jamp-admin-column.php:130
+#: admin/partials/jamp-admin-meta-box.php:154
+#: admin/partials/jamp-admin-meta-box.php:160
+#: admin/partials/jamp-admin-meta-box.php:166
+#: admin/partials/jamp-admin-meta-box.php:172
+#: admin/partials/jamp-admin-meta-box.php:178
+#: admin/partials/jamp-admin-meta-box.php:184
+msgid "Color: "
+msgstr ""
+
+#: admin/partials/jamp-admin-column.php:128
+#: admin/partials/jamp-admin-meta-box.php:160
+#: admin/partials/jamp-admin-meta-box.php:161
+msgid "blue"
+msgstr ""
+
+#: admin/partials/jamp-admin-column.php:130
+#: admin/partials/jamp-admin-meta-box.php:154
+#: admin/partials/jamp-admin-meta-box.php:155
+msgid "none"
+msgstr ""
+
+#: admin/partials/jamp-admin-column.php:150
+#: admin/partials/jamp-admin-meta-box.php:97
+msgid "Global"
+msgstr ""
+
+#: admin/partials/jamp-admin-column.php:170
+#: admin/partials/jamp-admin-meta-box.php:102
+msgid "Section"
+msgstr ""
+
+#: admin/partials/jamp-admin-column.php:176
+msgid "Note attached to a no longer existing Section."
+msgstr ""
+
+#: admin/partials/jamp-admin-column.php:186
+#: admin/partials/jamp-admin-column.php:255
+#: admin/partials/jamp-admin-meta-box.php:107
+msgid "Item"
+msgstr ""
+
+#. translators: %s is the item type the note is attached to (eg. post, page...).
+#: admin/partials/jamp-admin-column.php:264
+msgid "Note attached to a no longer existing %s."
+msgstr ""
+
+#. translators: %s is the deleted item name.
+#: admin/partials/jamp-admin-column.php:282
+msgid "Deleted item: %s."
+msgstr ""
+
+#: admin/partials/jamp-admin-meta-box-view-notes.php:73
+msgid "No notes for this item."
+msgstr ""
+
+#. translators: %s is the item type name.
+#: admin/partials/jamp-admin-meta-box.php:69
+msgid "Please be aware that the Item Type of this note (%s) is not enabled in JAMP settings. Some of the above fields may be empty, but you can edit this note anyway."
+msgstr ""
+
+#: admin/partials/jamp-admin-meta-box.php:93
+msgid "Select the note location."
+msgstr ""
+
+#: admin/partials/jamp-admin-meta-box.php:112
+msgid "Select the Section."
+msgstr ""
+
+#: admin/partials/jamp-admin-meta-box.php:114
+#: admin/partials/jamp-admin-meta-box.php:129
+#: admin/partials/jamp-admin-meta-box.php:144
+msgid "select..."
+msgstr ""
+
+#: admin/partials/jamp-admin-meta-box.php:127
+msgid "Select the Item type."
+msgstr ""
+
+#: admin/partials/jamp-admin-meta-box.php:142
+msgid "Select the Item."
+msgstr ""
+
+#: admin/partials/jamp-admin-meta-box.php:150
+msgid "Select the note color."
+msgstr ""
+
+#: admin/partials/jamp-admin-meta-box.php:166
+#: admin/partials/jamp-admin-meta-box.php:167
+msgid "green"
+msgstr ""
+
+#: admin/partials/jamp-admin-meta-box.php:172
+#: admin/partials/jamp-admin-meta-box.php:173
+msgid "purple"
+msgstr ""
+
+#: admin/partials/jamp-admin-meta-box.php:178
+#: admin/partials/jamp-admin-meta-box.php:179
+msgid "red"
+msgstr ""
+
+#: admin/partials/jamp-admin-meta-box.php:184
+#: admin/partials/jamp-admin-meta-box.php:185
+msgid "yellow"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:29
+msgctxt "Post Type General Name"
+msgid "Notes"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:30
+msgctxt "Post Type Singular Name"
+msgid "Note"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:32
+msgid "Note"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:33
+msgid "Note Archives"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:34
+msgid "Note Attributes"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:35
+msgid "Parent Note:"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:36
+msgid "All Notes"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:37
+msgid "Add New Note"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:38
+msgid "Add New"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:39
+msgid "New Note"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:40
+msgid "Edit Note"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:41
+msgid "Update Note"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:42
+msgid "View Note"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:43
+msgid "View Notes"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:44
+msgid "Search Notes"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:45
+msgid "Not found"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:46
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:47
+msgid "Featured image"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:48
+msgid "Set featured image"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:49
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:50
+msgid "Use as featured image"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:51
+msgid "Insert into Note"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:52
+msgid "Uploaded to this Note"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:53
+msgid "Notes list"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:54
+msgid "Notes list navigation"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:55
+msgid "Filter Notes list"
+msgstr ""
+
+#: includes/class-jamp-cpt.php:61
+msgid "A note you can attach to some WordPress dashboard elements."
+msgstr ""

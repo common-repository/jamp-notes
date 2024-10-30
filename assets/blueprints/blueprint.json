@@ -1,0 +1,28 @@
+{
+    "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+    "landingPage": "\/wp-admin\/edit.php?post_type=jamp_note",
+    "preferredVersions": {
+        "php": "8.1",
+        "wp": "6.5"
+    },
+    "phpExtensionBundles": [
+        "kitchen-sink"
+    ],
+    "steps": [
+        {
+            "step": "login",
+            "username": "admin",
+            "password": "password"
+        },
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "wordpress.org\/plugins",
+                "slug": "jamp-notes"
+            },
+            "options": {
+                "activate": true
+            }
+        }
+    ]
+}
